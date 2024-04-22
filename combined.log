@@ -1,0 +1,36 @@
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T20:25:18.609Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T20:31:41.983Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T20:31:59.184Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T20:32:52.324Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T20:33:14.854Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T20:35:07.492Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T20:35:53.063Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T20:49:28.535Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T20:49:52.350Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T20:51:59.092Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T20:57:31.508Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T20:59:59.295Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T21:01:59.691Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T21:15:17.513Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T21:15:41.674Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T21:17:30.869Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T21:18:50.465Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T21:19:44.416Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T21:19:55.990Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T21:20:20.490Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T21:21:11.780Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T21:21:35.714Z"}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.94andqq.mongodb.net","level":"error","message":"Error connecting to MongoDB: querySrv ECONNREFUSED _mongodb._tcp.cluster0.94andqq.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.94andqq.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv","timestamp":"2024-04-22T21:23:58.877Z"}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.94andqq.mongodb.net","level":"error","message":"Error connecting to MongoDB: querySrv ECONNREFUSED _mongodb._tcp.cluster0.94andqq.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.94andqq.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv","timestamp":"2024-04-22T21:24:04.728Z"}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.94andqq.mongodb.net","level":"error","message":"Error connecting to MongoDB: querySrv ECONNREFUSED _mongodb._tcp.cluster0.94andqq.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.94andqq.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv","timestamp":"2024-04-22T21:24:17.832Z"}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.94andqq.mongodb.net","level":"error","message":"Error connecting to MongoDB: querySrv ECONNREFUSED _mongodb._tcp.cluster0.94andqq.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.94andqq.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv","timestamp":"2024-04-22T21:24:36.123Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T21:27:21.907Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T21:28:39.707Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T21:29:11.906Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T21:29:30.922Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T21:29:45.614Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T21:30:07.182Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T21:31:01.443Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T21:31:12.415Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T21:31:25.558Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2024-04-22T21:31:30.814Z"}
