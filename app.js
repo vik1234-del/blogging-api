@@ -1,6 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const bodyParser = require("body-parser"); // Optional, if you need to parse request bodies
+const bodyParser = require("body-parser");
 const jwt = require("jsonwebtoken");
 const secretKey = process.env.SECRET_KEY;
 console.log(secretKey);
@@ -75,7 +75,6 @@ app.post("/blogs", authenticateToken, async (req, res) => {
 });
 
 // Route to get list of blogs with pagination, search, and state filtering
-// Route to get list of blogs with pagination, search, and state filtering
 app.get("/blogs", async (req, res) => {
   try {
     const {
@@ -145,7 +144,7 @@ app.patch("/blogs/:id/state", async (req, res) => {
   }
 });
 
-//signup new user
+//ROUTE to signup new user
 app.post("/signup", async (req, res) => {
   try {
     const { first_name, last_name, email, password } = req.body;
