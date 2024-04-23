@@ -1,6 +1,5 @@
-// auth-token.js
 const jwt = require("jsonwebtoken");
-const secretKey = "W3H4euYdDJvj";
+const secretKey = process.env.SECRET_KEY;
 
 function authenticateToken(req, res, next) {
   const authHeader = req.headers["authorization"];
@@ -10,11 +9,12 @@ function authenticateToken(req, res, next) {
     return res.sendStatus(401);
   }
 
+  console.log("Token:", token); // Log the token
   jwt.verify(token, secretKey, (err, decodedToken) => {
     if (err) {
       return res.sendStatus(403);
     }
-
+    console.log("Decoded Token:", decodedToken); // Log the decoded token
     req.user = decodedToken; // Assign decoded token to req.user
     next();
   });

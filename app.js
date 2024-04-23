@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const jwt = require("jsonwebtoken");
 const secretKey = process.env.SECRET_KEY;
-console.log(secretKey);
+// console.log(secretKey);
 // const crypto = require("crypto");
 // const secretKey = "W3H4euYdDJvj";
 const bcrypt = require("bcryptjs");
@@ -36,7 +36,7 @@ const sendErrorResponse = (res, statusCode, errorMessage) => {
 };
 
 // route to add a new blog, making sure all attributes are present
-app.post("/blogs", authenticateToken, async (req, res) => {
+app.post("/blogs", async (req, res) => {
   try {
     // Destructure the required attributes from the request body
     const {
